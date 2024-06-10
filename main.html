@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zarządzanie lodówkami</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Zarządzanie lodówkami</h1>
+</header>
+
+<div class="container">
+    <div id="daneLodowek" class="lodowki-container"></div>
+    <div class="button-group">
+        <button id="przyciskDodaj" class="register-button">Dodaj lodówkę</button>
+        <button id="przyciskUsunWszystkie" class="register-button">Usuń wszystkie</button>
+        <button id="przyciskWykresy" class="register-button">Pokaż statystyki</button>
+    </div>
+    <div id="wykresy" style="display: none;">
+        <canvas id="wykresLodowek"></canvas>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

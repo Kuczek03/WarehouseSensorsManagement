@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #002983;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px black;
+    text-align: center;
+}
+
+.lodowki-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lodowka {
+    background-color: #c0c0c0;
+    border: 1px solid #002983;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.lodowka h3 {
+    margin-top: 0;
+}
+
+.polka {
+    background-color: #808080;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: white;
+}
+
+#wykresy {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.polka .temperatura {
+    font-weight: bold;
+}
+
+.button-group {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-group button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #002983;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-group button:hover {
+    background-color: #0044aa;
+}
